@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+}
+
+input[type="number"] {
+  width: 60px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 0 4px 4px 0;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background: #28a745;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #218838;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+li.strikethrough {
+  text-decoration: line-through;
+  color: #999;
+}
+
+li button {
+  background: #dc3545;
+}
+
+li button:hover {
+  background: #c82333;
+}
+
+li button.strikethrough {
+  text-decoration: line-through;
+  color: #999;
+}
